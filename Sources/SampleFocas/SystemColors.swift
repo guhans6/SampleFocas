@@ -15,9 +15,9 @@ struct SystemColors {
         return UIColor { trait in
             switch trait.userInterfaceStyle {
             case .dark:
-                return Dark.ref_surface_primary
+                return Dark.ref_primary_green
             default:
-                return Light.ref_surface_primary
+                return Light.ref_primary_green
             }
         }
     }
