@@ -10,6 +10,6 @@ import UIKit
 public class Focas {
     
     public struct Colors {
-        public let primaryGreen = SystemColors.primary_default()
+        public static let primaryGreen = SystemColors.primary_default()
     }
 }
