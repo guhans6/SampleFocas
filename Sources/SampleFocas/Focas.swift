@@ -13,4 +13,13 @@ public class Focas {
     public struct Colors {
         public static let primaryGreen = SystemColors.primary_default()
     }
+    
+    public struct Fonts {
+        ///Size: 17px; Weight: 400 -> Regular
+        public static var primary_regular: UIFont {
+            get {
+                return FontManager.restrictedFont()
+            }
+        }
+    }
 }
