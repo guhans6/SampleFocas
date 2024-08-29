@@ -21,5 +21,11 @@ public class Focas {
                 return FontManager.restrictedFont()
             }
         }
+        
+        public static var dynamic_primary_regular: UIFont {
+            get {
+                return FontManager.font()
+            }
+        }
     }
 }
