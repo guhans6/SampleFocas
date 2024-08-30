@@ -28,5 +28,5 @@ struct Dark {
     static let ref_surface_tertiary = UIColor.tertiarySystemBackground
     static let ref_container_primary = UIColor.secondarySystemGroupedBackground
     static let ref_container_secondary = UIColor.tertiarySystemGroupedBackground
-    static let ref_primary_green = UIColor.systemGreen
+    static let ref_primary_green = UIColor.blue
 }
